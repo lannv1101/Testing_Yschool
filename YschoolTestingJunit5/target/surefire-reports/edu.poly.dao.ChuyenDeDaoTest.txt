@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+Test set: edu.poly.dao.ChuyenDeDaoTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.553 sec <<< FAILURE!
+edu.poly.dao.ChuyenDeDaoTest.testSelect()  Time elapsed: 0.537 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: mock cannot be null
+	at org.powermock.api.mockito.internal.expectation.PowerMockitoStubberImpl.assertNotNull(PowerMockitoStubberImpl.java:133)
+	at org.powermock.api.mockito.internal.expectation.PowerMockitoStubberImpl.when(PowerMockitoStubberImpl.java:102)
+	at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+
+edu.poly.dao.ChuyenDeDaoTest.testInsertWithValiModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testInsertWithValiModel(ChuyenDeDaoTest.java:88)
+
+edu.poly.dao.ChuyenDeDaoTest.testDeleteWithNullModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testDeleteWithNullModel(ChuyenDeDaoTest.java:145)
+
+edu.poly.dao.ChuyenDeDaoTest.testUpdateWithNullModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testUpdateWithNullModel(ChuyenDeDaoTest.java:96)
+
+edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithFound()  Time elapsed: 0 sec  <<< FAILURE!
+org.powermock.core.InvocationException: org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+-> at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClassClassLoader(ClassloaderWrapper.java:53)
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClass(ClassloaderWrapper.java:44)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doAnswer(PowerMockitoCore.java:122)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doReturn(PowerMockitoCore.java:83)
+	at org.powermock.api.mockito.PowerMockito.doReturn(PowerMockito.java:710)
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithFound(ChuyenDeDaoTest.java:191)
+Caused by: org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+-> at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithFound(ChuyenDeDaoTest.java:191)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethod(PojoTestSet.java:151)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethods(PojoTestSet.java:102)
+	at org.apache.maven.surefire.junit.PojoTestSet.execute(PojoTestSet.java:83)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	... 5 more
+
+edu.poly.dao.ChuyenDeDaoTest.testUpdateWithEmptyModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testUpdateWithEmptyModel(ChuyenDeDaoTest.java:105)
+
+edu.poly.dao.ChuyenDeDaoTest.testInsertWithNullModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testInsertWithNullModel(ChuyenDeDaoTest.java:63)
+
+edu.poly.dao.ChuyenDeDaoTest.testInsertWithEmptyModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testInsertWithEmptyModel(ChuyenDeDaoTest.java:73)
+
+edu.poly.dao.ChuyenDeDaoTest.testUpdateWithValiModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testUpdateWithValiModel(ChuyenDeDaoTest.java:120)
+
+edu.poly.dao.ChuyenDeDaoTest.testDeleteWithValiModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testDeleteWithValiModel(ChuyenDeDaoTest.java:128)
+
+edu.poly.dao.ChuyenDeDaoTest.testDeleteWithEmptyModel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testDeleteWithEmptyModel(ChuyenDeDaoTest.java:136)
+
+edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithNotFound()  Time elapsed: 0 sec  <<< FAILURE!
+org.powermock.core.InvocationException: org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-> at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:159)
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClassClassLoader(ClassloaderWrapper.java:53)
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClass(ClassloaderWrapper.java:44)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doAnswer(PowerMockitoCore.java:122)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doReturn(PowerMockitoCore.java:83)
+	at org.powermock.api.mockito.PowerMockito.doReturn(PowerMockito.java:710)
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithNotFound(ChuyenDeDaoTest.java:175)
+Caused by: org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-> at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:159)
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithNotFound(ChuyenDeDaoTest.java:175)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethod(PojoTestSet.java:151)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethods(PojoTestSet.java:102)
+	at org.apache.maven.surefire.junit.PojoTestSet.execute(PojoTestSet.java:83)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	... 5 more
+

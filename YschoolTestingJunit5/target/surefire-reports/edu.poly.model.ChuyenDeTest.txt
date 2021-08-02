@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: edu.poly.model.ChuyenDeTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec <<< FAILURE!
+edu.poly.model.ChuyenDeTest.testGetMoTa()  Time elapsed: 0.049 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at edu.poly.model.ChuyenDeTest.testGetMoTa(ChuyenDeTest.java:225)
+
+edu.poly.model.ChuyenDeTest.testGetMaCD()  Time elapsed: 0.003 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at edu.poly.model.ChuyenDeTest.testGetMaCD(ChuyenDeTest.java:51)
+
+edu.poly.model.ChuyenDeTest.testToString()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at edu.poly.model.ChuyenDeTest.testToString(ChuyenDeTest.java:254)
+
+edu.poly.model.ChuyenDeTest.testGetHinh()  Time elapsed: 0.003 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at edu.poly.model.ChuyenDeTest.testGetHinh(ChuyenDeTest.java:194)
+
+edu.poly.model.ChuyenDeTest.testGetTenCD()  Time elapsed: 0.004 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at edu.poly.model.ChuyenDeTest.testGetTenCD(ChuyenDeTest.java:80)
+
+edu.poly.model.ChuyenDeTest.testSetThoiLuongWithNegative()  Time elapsed: 0.007 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:69)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:36)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1179)
+	at edu.poly.model.ChuyenDeTest.testSetThoiLuongWithNegative(ChuyenDeTest.java:181)
+
+edu.poly.model.ChuyenDeTest.testSetHocPhiWithNegative()  Time elapsed: 0.006 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:69)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:36)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1179)
+	at edu.poly.model.ChuyenDeTest.testSetHocPhiWithNegative(ChuyenDeTest.java:133)
+
+edu.poly.model.ChuyenDeTest.testSetHocPhiWithLarge()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:69)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:36)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:1179)
+	at edu.poly.model.ChuyenDeTest.testSetHocPhiWithLarge(ChuyenDeTest.java:144)
+

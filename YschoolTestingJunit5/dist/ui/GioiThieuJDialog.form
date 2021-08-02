@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" pref="877" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <Component id="jLabel1" pref="876" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="403" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" pref="341" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="194" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/edu/poly/ui/images/logo-small.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Ph&#x1ea7;n m&#x1ec1;m Yschool l&#xe0; d&#x1ef1; &#xe1;n m&#x1eab;u c&#x1ee7;a nh&#xf3;m em. Ph&#x1ea7;n m&#x1ec1;m &#x111;&#x1b0;&#x1ee3;c t&#x1ea1;o ra t&#x1eeb; tinh th&#x1ea7;n h&#x1ecd;c h&#x1ecf;i v&#xe0; l&#xe0;m vi&#x1ec7;c c&#x1ee7;a nh&#xf3;m.&#xa;Ph&#x1ea7;m m&#x1ec1;m &#x111;&#x1b0;&#x1ee3;c t&#x1ea1;o ra t&#x1eeb; y&#xea;u c&#x1ea7;u gi&#xfa;p &#x111;&#x1ee1; t&#x1eeb; Trung T&#xe2;m CNTT Yschool &#x111;&#x1ec3; qu&#x1ea3;n l&#xfd; &#x111;&#xe0;o t&#x1ea1;o trong vi&#x1ec7;c gi&#x1ea3;ng d&#x1ea1;y v&#xe0;&#xa;&#x111;i&#x1ec1;u h&#xe0;nh h&#x1ecd;c vi&#xea;n &#x111;&#x1b0;&#x1ee3;c chuy&#xea;n nghi&#x1ec7;p h&#x1a1;n&#xa;M&#x1ee5;c ti&#xea;u ch&#xed;nh l&#xe0; hu&#x1ea5;n luy&#x1ec7;n sinh vi&#xea;n quy tr&#xec;nh th&#x1ef1;c hi&#x1ec7;n d&#x1ef1; &#xe1;n. &#xa;M&#x1ee5;c ti&#xea;u c&#x1ee7;a d&#x1ef1; &#xe1;n n&#xe0;y l&#xe0; &#x111;&#x1ec3; r&#xe8;n luy&#x1ec7;n k&#x129; n&#x103;ng  IO(CDIO) t&#x1ee9;c kh&#xf4;ng y&#xea;u c&#x1ea7;u sinh vi&#xea;n ph&#x1ea3;i thu th&#x1ead;p ph&#xe2;n t&#xed;ch&#xa; m&#xe0; ch&#x1ec9; th&#x1ef1;c hi&#x1ec7;n v&#xe0; v&#x1ead;n h&#xe0;nh 1 ph&#x1ea7;n m&#x1ec1;m chu&#x1ea9;n b&#x1ecb; cho c&#xe1;c d&#x1ef1; &#xe1;n sau n&#xe0;y. &#xa;C&#xe1;c k&#x1ef9; n&#x103;ng CD(trong CDIO s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c hu&#x1ea5;n luy&#x1ec7;n &#x1edf; d&#x1ef1; &#xe1;n 1 v&#xe0; d&#x1ef1; &#xe1;n 2. &#xa;Y&#xea;u c&#x1ea7;u v&#x1ec1; m&#xf4;i tr&#x1b0;&#x1edd;ng &#xa;1.H&#x1ec7; &#x111;i&#x1ec1;u h&#xe0;nh b&#x1ea5;t k&#x1ef3;.  &#xa;2.JDK 1.8 tr&#x1edf; l&#xea;n.  &#xa;3.SQL Server 2008 tr&#x1edf; l&#xea;n."/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

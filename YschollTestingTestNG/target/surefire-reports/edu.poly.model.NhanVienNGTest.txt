@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: edu.poly.model.NhanVienNGTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.203 sec <<< FAILURE!
+testGetHoTen(edu.poly.model.NhanVienNGTest)  Time elapsed: 0.156 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NhanVienNGTest.testGetHoTen(NhanVienNGTest.java:90)
+
+testGetMaNV(edu.poly.model.NhanVienNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NhanVienNGTest.testGetMaNV(NhanVienNGTest.java:46)
+
+testGetMatKhau(edu.poly.model.NhanVienNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NhanVienNGTest.testGetMatKhau(NhanVienNGTest.java:68)
+
+testToString(edu.poly.model.NhanVienNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NhanVienNGTest.testToString(NhanVienNGTest.java:136)
+

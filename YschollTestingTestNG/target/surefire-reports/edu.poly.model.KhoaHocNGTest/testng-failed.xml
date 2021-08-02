@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [edu.poly.model.KhoaHocNGTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="edu.poly.model.KhoaHocNGTest">
+        <methods>
+          <include name="testSetThoiLuongWithNegative"/>
+          <include name="setUpMethod"/>
+          <include name="testGetNgayTao"/>
+          <include name="testGetMaNV"/>
+          <include name="testSetMaKHWithNegative"/>
+          <include name="testToString"/>
+          <include name="testGetGhiChu"/>
+          <include name="testSetThoiLuongWithZero"/>
+          <include name="testGetMaCD"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="testSetHocPhiWithNegative"/>
+        </methods>
+      </class> <!-- edu.poly.model.KhoaHocNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [edu.poly.model.KhoaHocNGTest] -->

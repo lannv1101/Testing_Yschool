@@ -1,0 +1,83 @@
+-------------------------------------------------------------------------------
+Test set: edu.poly.model.NguoiHocNGTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 1.2 sec <<< FAILURE!
+testGetDienThoai(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0.078 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testGetDienThoai(NguoiHocNGTest.java:142)
+
+testGetEmail(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testGetEmail(NguoiHocNGTest.java:164)
+
+testGetGhiChu(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testGetGhiChu(NguoiHocNGTest.java:187)
+
+testGetHoTen(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testGetHoTen(NguoiHocNGTest.java:74)
+
+testGetMaNH(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testGetMaNH(NguoiHocNGTest.java:52)
+
+testGetMaNV(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testGetMaNV(NguoiHocNGTest.java:209)
+
+testGetNgayDK(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Tue Apr 27 00:25:36 ICT 2021]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:563)
+	at edu.poly.model.NguoiHocNGTest.testGetNgayDK(NguoiHocNGTest.java:232)
+
+testToString(edu.poly.model.NguoiHocNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at edu.poly.model.NguoiHocNGTest.testToString(NguoiHocNGTest.java:255)
+

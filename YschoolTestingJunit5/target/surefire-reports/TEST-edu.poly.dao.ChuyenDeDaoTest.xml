@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="12" name="edu.poly.dao.ChuyenDeDaoTest" time="0.537" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\DU AN NETBEANS\YschoolTestingJunit5"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="edu.poly.dao.ChuyenDeDaoTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\DU AN NETBEANS\YschoolTestingJunit5"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\SIEMENS\S7-PCT\bin;C:\Program Files (x86)\Common Files\Siemens\Sqlany;C:\Program Files (x86)\Siemens\Step7\S7bin;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PKWARE\pkzipc;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;;D:\VScode\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="DELL"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=edu.poly.dao.ChuyenDeDaoTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans-11.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-11.2\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testSelect" time="0.537">
+    <failure message="mock cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: mock cannot be null
+	at org.powermock.api.mockito.internal.expectation.PowerMockitoStubberImpl.assertNotNull(PowerMockitoStubberImpl.java:133)
+	at org.powermock.api.mockito.internal.expectation.PowerMockitoStubberImpl.when(PowerMockitoStubberImpl.java:102)
+	at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+</failure>
+    <system-out>select
+</system-out>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testInsertWithValiModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testInsertWithValiModel(ChuyenDeDaoTest.java:88)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testDeleteWithNullModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testDeleteWithNullModel(ChuyenDeDaoTest.java:145)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testUpdateWithNullModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testUpdateWithNullModel(ChuyenDeDaoTest.java:96)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithFound" time="0">
+    <failure message="org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+
+-&gt; at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains(&quot;foo&quot;))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+" type="org.powermock.core.InvocationException">org.powermock.core.InvocationException: org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+-&gt; at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains(&quot;foo&quot;))
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClassClassLoader(ClassloaderWrapper.java:53)
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClass(ClassloaderWrapper.java:44)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doAnswer(PowerMockitoCore.java:122)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doReturn(PowerMockitoCore.java:83)
+	at org.powermock.api.mockito.PowerMockito.doReturn(PowerMockito.java:710)
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithFound(ChuyenDeDaoTest.java:191)
+Caused by: org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+Misplaced or misused argument matcher detected here:
+-&gt; at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:160)
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains(&quot;foo&quot;))
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithFound(ChuyenDeDaoTest.java:191)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethod(PojoTestSet.java:151)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethods(PojoTestSet.java:102)
+	at org.apache.maven.surefire.junit.PojoTestSet.execute(PojoTestSet.java:83)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	... 5 more
+</failure>
+    <system-out>findById
+</system-out>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testUpdateWithEmptyModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testUpdateWithEmptyModel(ChuyenDeDaoTest.java:105)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testInsertWithNullModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testInsertWithNullModel(ChuyenDeDaoTest.java:63)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testInsertWithEmptyModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testInsertWithEmptyModel(ChuyenDeDaoTest.java:73)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testUpdateWithValiModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testUpdateWithValiModel(ChuyenDeDaoTest.java:120)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testDeleteWithValiModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testDeleteWithValiModel(ChuyenDeDaoTest.java:128)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testDeleteWithEmptyModel" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.poly.dao.ChuyenDeDaoTest.testDeleteWithEmptyModel(ChuyenDeDaoTest.java:136)
+</failure>
+  </testcase>
+  <testcase classname="edu.poly.dao.ChuyenDeDaoTest" name="edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithNotFound" time="0">
+    <failure message="org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-&gt; at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:159)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before &apos;thenReturn&apos; instruction is completed
+" type="org.powermock.core.InvocationException">org.powermock.core.InvocationException: org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-&gt; at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:159)
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before &apos;thenReturn&apos; instruction is completed
+
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClassClassLoader(ClassloaderWrapper.java:53)
+	at org.powermock.core.classloader.ClassloaderWrapper.runWithClass(ClassloaderWrapper.java:44)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doAnswer(PowerMockitoCore.java:122)
+	at org.powermock.api.mockito.internal.PowerMockitoCore.doReturn(PowerMockitoCore.java:83)
+	at org.powermock.api.mockito.PowerMockito.doReturn(PowerMockito.java:710)
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithNotFound(ChuyenDeDaoTest.java:175)
+Caused by: org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-&gt; at edu.poly.dao.ChuyenDeDaoTest.testSelect(ChuyenDeDaoTest.java:159)
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before &apos;thenReturn&apos; instruction is completed
+
+	at edu.poly.dao.ChuyenDeDaoTest.testFindByIdWithNotFound(ChuyenDeDaoTest.java:175)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethod(PojoTestSet.java:151)
+	at org.apache.maven.surefire.junit.PojoTestSet.executeTestMethods(PojoTestSet.java:102)
+	at org.apache.maven.surefire.junit.PojoTestSet.execute(PojoTestSet.java:83)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:121)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:98)
+	... 5 more
+</failure>
+    <system-out>findById
+</system-out>
+  </testcase>
+</testsuite>
